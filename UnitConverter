@@ -1,0 +1,29 @@
+public class UnitConverter {
+
+    
+    public static double meterToKilometer(double meter) {
+        return meter / 1000 ;
+    }
+
+    public static double kilometerToMeter(double km) {
+        return km * 1000;
+    }
+
+    
+    public static double gramToKilogram(double gram) {
+        return gram / 1000;
+    }
+
+    public static double kilogramToGram(double kg) {
+        return kg * 1000;
+    }
+
+   
+    public static double secondsToMinutes(double sec) {
+        return sec / 60;
+    }
+
+    public static double minutesToSeconds(double min) {
+        return min * 60;
+    }
+}
