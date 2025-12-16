@@ -1,0 +1,25 @@
+public class DimensionChecker {
+
+    public static boolean isSameDimension(String unit1, String unit2) {
+
+        
+        if ((unit1.equals("meter") || unit1.equals("kilometer")) &&
+            (unit2.equals("meter") || unit2.equals("kilometer"))) {
+            return true;
+        }
+
+        
+        if ((unit1.equals("gram") || unit1.equals("kilogram")) &&
+            (unit2.equals("gram") || unit2.equals("kilogram"))) {
+            return true;
+        }
+
+        
+        if ((unit1.equals("second") || unit1.equals("minute")) &&
+            (unit2.equals("second") || unit2.equals("minute"))) {
+            return true;
+        }
+
+        return false;
+    }
+}
